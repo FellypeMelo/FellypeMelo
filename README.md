@@ -23,3 +23,6 @@
 
 ## 📫 Contato
 - **LinkedIn:** [Seu Perfil Aqui](https://www.linkedin.com/in/fellype-samuel)
+
+## Estátisticas
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=FellypeMelo&theme=dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
