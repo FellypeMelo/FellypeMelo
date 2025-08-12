@@ -1,16 +1,25 @@
-## Hi there 👋
+# 👋 Olá, eu sou o Fellype Samuel
 
-<!--
-**FellypeMelo/FellypeMelo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Estudante de **Análise e Desenvolvimento de Sistemas** com foco em **desenvolvimento web**, especialmente **Front-End**.  
+💡 Possuo conhecimentos também em **Back-End** e grande interesse em **Inteligência Artificial**.  
+🚀 Meu objetivo é me tornar um **Web Developer** capaz de criar soluções web eficientes e contribuir com projetos **Open Source** para ajudar a comunidade.
 
-Here are some ideas to get you started:
+## 🛠 Tecnologias e Ferramentas
+- **Linguagens:** C, Java, HTML, CSS, JavaScript, PHP, Python (Básico)
+- **Banco de Dados:** MySQL, SQL
+- **Frameworks e Ferramentas:** WordPress, Elementor, Git, BootsTrap
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 Projetos em Destaque
+- **Educa** – Sistema de gerenciamento escolar simples com:
+  - Cadastro de turmas e alunos
+  - Sistema de notas
+  - Envio de conteúdos extras para turmas
+  - Interface intuitiva para fácil uso
+
+## 🎯 Objetivo Profissional
+- Desenvolver soluções web inovadoras e escaláveis
+- Contribuir ativamente para projetos **Open Source**
+- Aperfeiçoar habilidades em **Front-End** e expandir conhecimento em **Inteligência Artificial**
+
+## 📫 Contato
+- **LinkedIn:** [Seu Perfil Aqui](https://www.linkedin.com/in/fellype-samuel)
