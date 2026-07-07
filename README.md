@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/Tech%20Lead-blue?style=flat-square" alt="Tech Lead" />
   <img src="https://img.shields.io/badge/Software%20Architecture-brightgreen?style=flat-square" alt="Software Architecture" />
   <img src="https://img.shields.io/badge/AI%20%26%20Deep%20Learning-orange?style=flat-square" alt="AI & Deep Learning" />
+  <img src="https://img.shields.io/badge/GPU%20%26%20Inference%20Optimization-blueviolet?style=flat-square" alt="GPU & Inference Optimization" />
   <img src="https://img.shields.io/badge/First--Author%20Publication-red?style=flat-square" alt="First-Author Publication" />
   <img src="https://img.shields.io/badge/Open%20Source-black?style=flat-square" alt="Open Source" />
 </p>
@@ -68,6 +69,21 @@ flowchart TB
 **Stack** &nbsp; `TypeScript` `React` `Vite` `Python` `FastAPI` `ChromaDB` `llama.cpp`
 
 📂 **[Repositório & Documentação →](https://github.com/FellypeMelo/Open-ChatBot)**
+
+---
+
+## ⚡ TurboQuant — Otimização de Inferência *(fork do llama.cpp)*
+
+Quantização de **KV-cache de 2–4 bits** com rotação **Walsh–Hadamard** (suavização de outliers antes de quantizar) para GPUs **Intel Arc / Xe2** via backend **SYCL** — o mesmo `turbo3` que alimenta o OpenChatBot.
+
+**Benchmarks do repositório** *(Intel Arc B580 · Qwen3-4B Q4_K_M · contexto 64k):*
+- 🔻 KV-cache de **9,2 GB → 1,6–1,8 GB** — até **7,5× menos** memória que fp16
+- ⚡ Prefill em **paridade de velocidade com fp16**
+- 🐛 6 bugs de correção resolvidos durante a implementação
+
+**Stack** &nbsp; `C/C++` `SYCL` `Intel oneAPI` `Quantização` `llama.cpp`
+
+📂 **[Fork & deep-dive técnico →](https://github.com/FellypeMelo/llama-cpp-turboquant-SYCL)**
 
 ---
 
