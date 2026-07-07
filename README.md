@@ -1,6 +1,6 @@
 # Fellype Samuel dos Santos de Melo
 ### Software Engineer & Tech Lead
-**Architecture • Artificial Intelligence • Full Stack • Research • Scalable Systems • Problem Solving**
+**Arquitetura de Software • Inteligência Artificial • Full Stack • Pesquisa Científica • Sistemas Escaláveis • Resolução de Problemas**
 
 <p align="left">
   <a href="https://linkedin.com/in/fellype-samuel" target="_blank">
@@ -14,149 +14,149 @@
   </a>
 </p>
 
-📍 **Rio de Janeiro, RJ, Brazil** | ✉️ **fellypesamuel1@hotmail.com**
+📍 **Rio de Janeiro, RJ, Brasil** | ✉️ **fellypesamuel1@hotmail.com**
 
 ---
 
-### 🧠 About Me
-I am a Software Engineer and a final-semester student of **Analysis and Systems Development (FAETERJ-Rio)**. My training and work are focused on software architecture, backend engineering, and applied Artificial Intelligence (Deep Learning & NLP). 
+### 🧠 Sobre Mim
+Sou Software Engineer e estudante do último período de **Análise e Desenvolvimento de Sistemas (FAETERJ-Rio)**. Minha formação e atuação profissional são focadas em arquitetura de software, engenharia de backend e Inteligência Artificial aplicada (Deep Learning & NLP).
 
-Throughout my trajectory, I have balanced full-stack web development with scientific research. As a Tech Lead, I guide projects from requirements gathering and system design to robust implementation, using technical decision-making to build maintainable, evolvable, and high-performance applications.
-
----
-
-### 💬 Philosophy
-> *"Software is more than code. Great software starts by understanding problems, designing solid architectures, and building solutions that remain maintainable over time."*
+Ao longo da minha trajetória, tenho equilibrado o desenvolvimento web full stack de mercado com a pesquisa científica aplicada. Como Tech Lead, guio projetos desde o levantamento de requisitos e design do sistema até a implementação final, utilizando tomada de decisão técnica fundamentada para construir aplicações seguras, evolutivas e de alto desempenho.
 
 ---
 
-### 🎯 Why Me? / Key Differentiators
-*   **🤖 Hybrid Software & AI Profile:** Bridging high-quality software architecture principles (SOLID, Clean Arch, DDD) with complex Deep Learning architectures (PyTorch, CNNs, YOLOv8).
-*   **💼 Technical Leadership:** Proven experience as Tech Lead, managing software architecture design, requirement modeling, and team roadmaps.
-*   **🔬 Academic & Research Rigor:** First author of a published article on cognitive algorithmic architectures, capable of bridging the gap between scientific papers and production software.
-*   **⚙️ Quality-First Engineering:** Strongly prioritize technical documentation, clean code, modeling, and automated testing (TDD/XP) over fast, fragile development.
+### 💬 Filosofia Profissional
+> *"Um software de excelência começa na compreensão profunda do problema, muito antes da primeira linha de código. Bons sistemas exigem arquiteturas sólidas e decisões técnicas bem estruturadas para evoluírem de forma sustentável no longo prazo."*
 
 ---
 
-### 🏛️ What I Do
-I design and build scalable software. My work involves:
-*   **Software Architecture:** Designing robust systems based on SOLID, DDD, and Clean Architecture.
-*   **Backend Engineering:** Developing performant REST APIs using Python, FastAPI, and Java.
-*   **AI Systems & Computer Vision:** Training and deploying machine learning pipelines (PyTorch, YOLO) into web products.
-*   **Applied Research:** Documenting, analyzing, and publishing scientific solutions for complex system problems.
-*   **Full Stack Development:** Creating highly responsive and modular frontends with React and Vite.
+### 🎯 Diferenciais Chave
+*   **🤖 Perfil Híbrido (Engenharia + IA):** Conexão prática entre práticas tradicionais de engenharia de software (SOLID, Clean Arch, DDD) e pipelines complexos de Deep Learning (PyTorch, YOLOv8).
+*   **💼 Liderança Técnica:** Experiência prática como Tech Lead, coordenando arquiteturas de software, modelagem de requisitos e cronogramas técnicos.
+*   **🔬 Rigor Científico:** Primeiro autor de artigo publicado sobre arquiteturas algorítmicas de atenção sustentável, com habilidade para traduzir pesquisas científicas em código de produção estruturado.
+*   **⚙️ Foco em Engenharia e Qualidade:** Priorização de documentação de requisitos, clean code, design patterns e testes automatizados (TDD/XP) em vez de desenvolvimento ágil porém frágil.
 
 ---
 
-### 🚀 Featured Projects
+### 🏛️ O Que Eu Faço
+Eu modelo e desenvolvo sistemas escaláveis. Minhas principais atividades envolvem:
+*   **Arquitetura de Software:** Modelagem de sistemas baseados em SOLID, DDD e Clean Architecture.
+*   **Engenharia de Backend:** Desenvolvimento de APIs REST robustas e performáticas com Python, FastAPI e Java.
+*   **IA & Visão Computacional:** Treinamento, otimização e deploy de modelos de Machine/Deep Learning (PyTorch, YOLO) integrados a produtos digitais.
+*   **Pesquisa Científica Aplicada:** Investigação e documentação de soluções algorítmicas voltadas para mitigar problemas reais em sistemas digitais.
+*   **Desenvolvimento Full Stack:** Construção de frontends modulares, performáticos e responsivos usando React e Vite.
+
+---
+
+### 🚀 Projetos em Destaque
 
 #### 🤖 **OpenChatBot**
-*   **Role:** Creator & Lead Developer
-*   **Description:** A modular, customizable platform for hosting local conversational agents with persistent memory and dynamic context management.
-*   **Architecture & Practices:** Designed with Clean Architecture, SOLID, Domain-Driven Design (DDD), Design Patterns, and developed using Test-Driven Development (TDD) and Extreme Programming (XP) practices.
+*   **Papel:** Criador & Desenvolvedor Líder
+*   **Descrição:** Plataforma modular e altamente personalizável para execução de agentes conversacionais locais com memória persistente e gerenciamento dinâmico de contexto.
+*   **Arquitetura & Práticas:** Desenvolvido sob os conceitos de Clean Architecture, SOLID, Domain-Driven Design (DDD), Design Patterns, TDD e Extreme Programming (XP).
 *   **Stack:** React, Vite, Python, FastAPI.
-*   **Status:** *In Active Development*
+*   **Status:** *Em Desenvolvimento Ativo*
 
-#### 🔬 **Embryo Classification System**
-*   **Role:** Tech Lead & AI Researcher (FuzzyLab)
-*   **Description:** An AI-powered Deep Learning pipeline developed in partnership with a Master's degree research project at FuzzyLab for the automatic classification of human embryos.
-*   **Architecture & Practices:** Stratified k-fold cross-validation, ResNet-18 model architecture in PyTorch, REST API integration, and web platform integration.
+#### 🔬 **Sistema de Classificação de Embriões**
+*   **Papel:** Tech Lead & Pesquisador em IA (FuzzyLab)
+*   **Descrição:** Pipeline de Deep Learning integrado a uma plataforma web, desenvolvido em parceria com pesquisa de mestrado do FuzzyLab, para classificação automática de embriões humanos.
+*   **Arquitetura & Práticas:** Redes ResNet-18 treinadas em PyTorch com validação cruzada estratificada (k-fold), integradas a endpoints REST em FastAPI.
 *   **Stack:** PyTorch, FastAPI, Python, React.
-*   **Status:** *In Production / Active Research*
+*   **Status:** *Em Produção / Pesquisa Ativa*
 
-#### 🔬 **Trypanosoma cruzi Segmentation**
-*   **Role:** AI Researcher
-*   **Description:** Computer vision project focused on identifying and segmenting cellular structures of the *Trypanosoma cruzi* parasite from electron microscopy images.
-*   **Architecture & Practices:** Instance segmentation training and pipeline optimization using YOLOv8-seg.
+#### 🔬 **Segmentação de Trypanosoma cruzi**
+*   **Papel:** Pesquisador em IA
+*   **Descrição:** Projeto de Visão Computacional para identificar e segmentar estruturas celulares do parasita *Trypanosoma cruzi* em imagens de microscopia eletrônica de varredura.
+*   **Arquitetura & Práticas:** Fine-tuning e otimização de modelos YOLOv8-seg para segmentação de instâncias em imagens biológicas.
 *   **Stack:** YOLOv8, Python, OpenCV.
-*   **Status:** *Completed (Research)*
+*   **Status:** *Concluído (Pesquisa)*
 
-#### 🎓 **Educa — School Management System**
-*   **Role:** Tech Lead & Lead Architect (TCC)
-*   **Description:** A comprehensive management system for educational institutions, acting as my undergraduate thesis project (TCC).
-*   **Architecture & Practices:** Managed software architecture design, requirements gathering, complete technical documentation, and full-stack implementation.
+#### 🎓 **Educa — Sistema de Gerenciamento Escolar**
+*   **Papel:** Tech Lead & Arquiteto Líder (TCC)
+*   **Descrição:** Sistema completo para gestão acadêmica e escolar, desenvolvido como Trabalho de Conclusão de Curso.
+*   **Arquitetura & Práticas:** Liderança do ciclo de engenharia de software, mapeamento de requisitos, arquitetura de sistemas e implementação full stack do produto.
 *   **Stack:** React, Vite, Python, FastAPI.
-*   **Status:** *Completed*
+*   **Status:** *Concluído*
 
 ---
 
-### 🌐 Open Source & Contributions
-*   **My Goal:** Building modular, privacy-focused, and highly performant AI utilities that developers can easily run locally.
-*   **Initiative:** Maintainer of **OpenChatBot**, working to democratize local LLM integration and modular agent memory.
-*   **Interests:** Actively looking to contribute to distributed systems frameworks, API boilerplate optimizations, and software engineering architecture patterns.
+### 🌐 Open Source & Contribuições
+*   **Meu Objetivo:** Criar e disponibilizar ferramentas modulares de inteligência artificial de execução local, com foco em privacidade do usuário final.
+*   **Iniciativa:** Criador do **OpenChatBot**, focado na facilitação de integrações com LLMs locais e modelagem comportamental de agentes.
+*   **Interesses:** Contribuir ativamente em ecossistemas de sistemas distribuídos, otimização de queries, wrappers de API e arquiteturas de clean software.
 
 ---
 
-### 📝 Research & Publications
-*   **First Author:**
-    > **MELO, F. S. S.** et al. *Algorithmic Architecture for Sustainable Attention: The Be-Productive Model as a Response to Cognitive Overload in Surveillance Capitalism*. Revista Tópicos, 2026.
+### 📝 Pesquisa & Publicações Científicas
+*   **Primeiro Autor:**
+    > **MELO, F. S. S.** et al. *Arquitetura Algorítmica para Atenção Sustentável: o Modelo Be-Productive como Resposta à Sobrecarga Cognitiva no Capitalismo de Vigilância*. Revista Tópicos, 2026.
     > 🔗 **DOI:** [10.70773/revistatopicos/781363235](https://doi.org/10.70773/revistatopicos/781363235)
 
 ---
 
-### 🚀 Currently & Roadmap
-*   [ ] Refactoring **OpenChatBot** to support decentralized multi-agent architectures.
-*   [ ] Deepening research on high-throughput **Distributed Systems** and cloud design patterns.
-*   [ ] Building advanced integrations for YOLOv8-seg pipelines into real-time web socket endpoints.
+### 🚀 Atualmente & Roadmap de Estudos
+*   [ ] Refatoração do **OpenChatBot** para suporte a layouts descentralizados multiagentes.
+*   [ ] Aprofundamento prático em arquitetura de **Sistemas Distribuídos** de larga escala.
+*   [ ] Otimização de deploys de visão computacional (YOLOv8-seg) via conexões WebSockets em tempo real.
 
 ---
 
-### 🛠️ Tech Stack & Methodologies
+### 🛠️ Competências Técnicas & Práticas
 
-| Category | Technologies / Practices |
+| Categoria | Tecnologias / Metodologias |
 | :--- | :--- |
-| **Languages** | Python, JavaScript (ES6+), Java, PHP, C |
+| **Linguagens** | Python, JavaScript (ES6+), Java, PHP, C |
 | **Front-end** | React, Vite, HTML5, CSS3, WordPress, Elementor |
-| **Back-end & APIs** | FastAPI, RESTful APIs |
-| **Artificial Intelligence** | PyTorch, Deep Learning, Machine Learning, CNNs, Transformers, NLP, YOLOv8, Watson Studio |
-| **Software Engineering** | Clean Architecture, SOLID, Domain-Driven Design (DDD), Design Patterns, Clean Code, TDD, XP |
-| **Databases & Tools** | SQL, MySQL, Git, GitHub |
+| **Back-end & APIs** | FastAPI, APIs RESTful |
+| **Inteligência Artificial** | PyTorch, Deep Learning, Machine Learning, CNNs, Transformers, NLP, YOLOv8, Watson Studio |
+| **Engenharia de Software** | Clean Architecture, SOLID, Domain-Driven Design (DDD), Design Patterns, Clean Code, TDD, XP |
+| **Banco de Dados & Ferramentas** | SQL, MySQL, Git, GitHub |
 
 ---
 
-### 🎓 Education & Certifications
+### 🎓 Formação & Certificações
 
-#### **Education**
-*   **B.S. in Analysis and Systems Development** — *FAETERJ-Rio* (Final Semester)
-*   **Technical High School in Industrial Informatics** *(2020 - 2023)*
-*   **Hardware and Robotics Course** — *Microcamp* *(2019 - 2021)*
+#### **Educação**
+*   **Tecnologia em Análise e Desenvolvimento de Sistemas** — *FAETERJ-Rio* (Último Período)
+*   **Ensino Médio Técnico em Informática Industrial** *(2020 - 2023)*
+*   **Curso de Hardware e Robótica** — *Microcamp* *(2019 - 2021)*
 
-#### **Certifications**
+#### **Certificações Destaque**
 *   🛡️ **Ethical Hacker & Network Defense** — *Cisco Networking Academy*
-*   🧠 **AI Fundamentals & Artificial Intelligence** — *Cisco & IBM SkillsBuild* (NLP, Computer Vision, Watson Studio)
+*   🧠 **AI Fundamentals & Artificial Intelligence** — *Cisco & IBM SkillsBuild* (Processamento de Linguagem Natural, Visão Computacional, Watson Studio)
 *   ☕ **Java Foundations** — *Oracle Academy*
 
 ---
 
-### 🎯 Areas of Interest
-*   Software Architecture & Design Patterns
-*   AI Engineering & Deep Learning (NLP & CV)
-*   Distributed Systems & Cloud Architectures
-*   Requirements Engineering & Software Quality (TDD/XP)
-*   Computer Vision & Image Segmentation
+### 🎯 Áreas de Interesse
+*   Arquitetura de Software & Design Patterns
+*   Engenharia de IA & Deep Learning (NLP & Visão Computacional)
+*   Sistemas Distribuídos & Arquiteturas Cloud
+*   Engenharia de Requisitos & Qualidade de Software (TDD/XP)
+*   Visão Computacional & Segmentação de Imagens
 
 ---
 
-### 📊 GitHub Analytics
+### 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=FellypeMelo&show_icons=true&theme=tokyonight&include_all_commits=true&locale=en" alt="Fellype's GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FellypeMelo&theme=tokyonight&layout=compact&custom_title=Top%20Languages&langs_count=9" alt="Fellype's Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=FellypeMelo&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" alt="Estatísticas do GitHub do Fellype" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FellypeMelo&theme=tokyonight&layout=compact&custom_title=Tecnologias%20Mais%20Usadas&langs_count=9" alt="Tecnologias mais usadas pelo Fellype" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=FellypeMelo&theme=tokyonight" alt="Fellype's Streak Stats" />
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=FellypeMelo&theme=tokyonight" alt="Estatísticas de Streak do Fellype" />
 </p>
 
 ---
 
-### 📞 Contact & Connections
+### 📞 Contato & Conexões
 
-| Platform | Link / Details |
+| Plataforma | Link / Detalhes |
 | :--- | :--- |
-| **💼 Professional** | [LinkedIn](https://linkedin.com/in/fellype-samuel) \| [GitHub](https://github.com/FellypeMelo) \| [Email](mailto:fellypesamuel1@hotmail.com) |
-| **🎓 Academic** | [ORCID](https://orcid.org/0009-0000-3274-0343) |
+| **💼 Profissional** | [LinkedIn](https://linkedin.com/in/fellype-samuel) \| [GitHub](https://github.com/FellypeMelo) \| [Email](mailto:fellypesamuel1@hotmail.com) |
+| **🎓 Acadêmico** | [ORCID](https://orcid.org/0009-0000-3274-0343) |
 
 <br>
 
-> 📬 *I am always open to collaborating on software engineering projects, applied research, artificial intelligence, and open-source initiatives. Let's build something remarkable together!*
+> 📬 *Estou sempre aberto a colaborar em projetos de engenharia de software, pesquisa aplicada, inteligência artificial e iniciativas open source. Vamos construir algo incrível juntos!*
