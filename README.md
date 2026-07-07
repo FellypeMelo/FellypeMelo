@@ -1,6 +1,12 @@
 # Fellype Samuel dos Santos de Melo
 ### Software Engineer & Tech Lead
-**Arquitetura de Software • Inteligência Artificial • Backend & APIs • Pesquisa Científica**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Role-Tech%20Lead-blue?style=flat-square" alt="Tech Lead" />
+  <img src="https://img.shields.io/badge/Focus-Software%20Architecture-brightgreen?style=flat-square" alt="Software Architecture" />
+  <img src="https://img.shields.io/badge/Specialty-AI%20%26%20Deep%20Learning-orange?style=flat-square" alt="AI & Deep Learning" />
+  <img src="https://img.shields.io/badge/Academic-First%20Author%20Publication-red?style=flat-square" alt="First Author Publication" />
+</p>
 
 <p align="left">
   <a href="https://linkedin.com/in/fellype-samuel" target="_blank">
@@ -18,61 +24,79 @@
 
 ---
 
-### 🧠 Resumo Executivo
-Sou Software Engineer e estudante do último período de **Análise e Desenvolvimento de Sistemas (FAETERJ-Rio)**. Atuo na intersecção entre o desenvolvimento de sistemas backend escaláveis e a pesquisa aplicada em **Inteligência Artificial (Deep Learning e Processamento de Linguagem Natural)**. Como Tech Lead, tenho experiência prática liderando equipes técnicas, mapeando requisitos complexos e definindo arquiteturas robustas e sustentáveis.
+### 🧠 Sobre Mim
+Sou Software Engineer e estudante do último período de **Análise e Desenvolvimento de Sistemas (FAETERJ-Rio)**. Atuo na intersecção entre arquitetura de backend escalável e Inteligência Artificial aplicada (Deep Learning & NLP). Como Tech Lead, modelo requisitos de negócio em arquiteturas sustentáveis e lidero integrações técnicas de ponta a ponta.
 
----
-
-### 💬 Filosofia de Engenharia
-> *"Sistemas de software evolutivos exigem modelagem estruturada e rigor técnico muito antes da escrita do código. Priorizo a clareza arquitetural, a definição de requisitos de negócio e decisões de design baseadas em trade-offs reais para garantir manutenibilidade e desempenho."*
-
----
-
-### 🎯 Diferenciais Profissionais
-*   **🤖 Perfil Híbrido Pragmático:** Domínio de práticas maduras de engenharia de software (Clean Architecture, SOLID, DDD) aplicadas à integração e treinamento de modelos de Deep Learning (PyTorch, YOLOv8).
-*   **💼 Liderança Técnica:** Experiência prática na definição de arquiteturas de software, engenharia de requisitos e gestão de pipelines de entrega para projetos de desenvolvimento e pesquisa de IA.
-*   **🔬 Rigor Acadêmico:** Primeiro autor de artigo publicado em revista acadêmica sobre arquiteturas cognitivas algorítmicas, demonstrando capacidade de traduzir literatura científica complexa em código produtivo.
-*   **⚙️ Qualidade de Software:** Uso ativo de Test-Driven Development (TDD), Clean Code e Extreme Programming (XP) para garantir a estabilidade técnica e a resiliência das entregas.
-
----
-
-### 🏛️ O Que Eu Faço
-*   **Arquitetura de Software:** Modelagem de sistemas baseados em desacoplamento técnico (Clean Arch, SOLID, DDD).
-*   **Engenharia de Backend:** Construção de APIs REST robustas e de alta performance utilizando Python (FastAPI) e Java.
-*   **IA & Visão Computacional:** Treinamento, validação (K-Fold) e deploy de redes neurais convolucionais (CNNs) e segmentação de instâncias (YOLOv8-seg).
-*   **Pesquisa Aplicada:** Modelagem científica de arquiteturas voltadas à atenção sustentável e mitigação de sobrecarga cognitiva.
-*   **Desenvolvimento Frontend:** Interfaces web performáticas e altamente escaneáveis com React e Vite.
+> *"Great software starts by understanding problems before writing code."*
 
 ---
 
 ### 🚀 Projetos em Destaque
 
-#### 🤖 **OpenChatBot** | `React` `Vite` `Python` `FastAPI` `TDD`
-*   **Papel:** Criador & Desenvolvedor Líder *(Em Desenvolvimento)*
-*   **Desafio:** Construir uma plataforma de agentes conversacionais locais com memória persistente, garantindo desacoplamento técnico e facilidade de personalização de agentes inteligentes.
-*   **Práticas Aplicadas:** Implementação baseada em Clean Architecture, Domain-Driven Design (DDD), Design Patterns estruturados e cobertura de testes contínua (TDD).
+#### 🤖 **OpenChatBot**
+*   **Problema:** Dificuldade na orquestração de múltiplos agentes conversacionais locais com memória persistente e controle rígido de privacidade.
+*   **Arquitetura:** Desacoplamento estrutural baseado em Clean Architecture e Domain-Driven Design (DDD), separando regras de domínio de adaptadores externos de LLM.
+```
+┌─────────────────────────────────────────────────────────┐
+│                       React UI                          │
+└────────────────────┬──────────────▲─────────────────────┘
+                     │ HTTP / WS    │ State updates
+┌────────────────────▼──────────────┴─────────────────────┐
+│                  FastAPI Backend REST                   │
+│  ┌───────────────────────────────────────────────────┐  │
+│  │              Clean Architecture Core              │  │
+│  │   ┌─────────────┐   ┌─────────────┐   ┌─────────┐ │  │
+│  │   │ Controllers │──►│ Use Cases   │──►│ Domain  │ │  │
+│  │   └─────────────┘   └─────────────┘   └─────────┘ │  │
+│  └───────────────────────────────────────────────────┘  │
+└────────────────────┬──────────────▲─────────────────────┘
+                     │ Repository   │ Memory / Context
+┌────────────────────▼──────────────┴─────────────────────┐
+│            Local LLM & Persistence (SQLite)             │
+└─────────────────────────────────────────────────────────┘
+```
+*   **Stack:** `React` `Vite` `FastAPI` `Python` `TDD`
+*   **Resultado:** Plataforma modular altamente personalizável para execução e teste de agentes locais privados.
+*   **Links:** [Código do Repositório](https://github.com/FellypeMelo/OpenChatBot) | [Documentação do Sistema](https://github.com/FellypeMelo/OpenChatBot#readme)
 
-#### 🎓 **Educa — Gestão Escolar** | `React` `Vite` `Python` `FastAPI`
-*   **Papel:** Tech Lead & Lead Architect *(Concluído - TCC)*
-*   **Desafio:** Mapear requisitos de regras escolares (notas, turmas, conteúdos) e integrá-los em uma aplicação modular e sustentável.
-*   **Práticas Aplicadas:** Engenharia de requisitos completa, diagramação e modelagem de banco de dados, documentação técnica exaustiva e implementação full stack do sistema.
+#### 🎓 **Educa — Gestão Escolar**
+*   **Problema:** Regras de negócio complexas e acopladas para gerenciamento de turmas, alunos e notas em instituições de ensino de médio porte.
+*   **Arquitetura:** Liderança técnica na diagramação e modelagem relacional de banco de dados, mapeamento de requisitos e estrutura MVC desacoplada.
+```
+┌─────────────┐       ┌─────────────┐       ┌─────────────┐
+│  React UI   ├──────►│ FastAPI API ├──────►│ Relational  │
+│  (Frontend) │◄──────┤  (Backend)  │◄──────┤ DB (MySQL)  │
+└─────────────┘       └─────────────┘       └─────────────┘
+```
+*   **Stack:** `React` `Vite` `FastAPI` `Python` `MySQL`
+*   **Resultado:** TCC concluído com sucesso com arquitetura robusta e documentação técnica abrangente.
+*   **Links:** [Código do Repositório](https://github.com/FellypeMelo/Educa) | [Documentação Arquitetural](https://github.com/FellypeMelo/Educa#readme)
 
-#### 🔬 **Segmentação de Trypanosoma cruzi** | `YOLOv8-seg` `Python` `OpenCV`
-*   **Papel:** Pesquisador em IA *(FuzzyLab - Em Andamento)*
-*   **Desafio:** Automatizar a identificação de estruturas ultraestruturais do parasita em imagens de microscopia eletrônica de varredura para análise científica.
-*   **Práticas Aplicadas:** Otimização e fine-tuning de modelos YOLOv8-seg para segmentação de instâncias em estruturas biológicas complexas com OpenCV.
+#### 🔬 **Segmentação de Trypanosoma cruzi**
+*   **Problema:** Lentidão na identificação manual de estruturas biológicas complexas do parasita em imagens de microscopia de varredura.
+*   **Arquitetura:** Pipeline de visão computacional otimizado para inferência automatizada por meio de segmentação de instâncias.
+```
+┌───────────────────┐      ┌──────────────────┐      ┌───────────────────┐
+│ Imagens Eletrônicas├─────►│  YOLOv8-seg Core ├─────►│ Estruturas        │
+│ de Microscopia    │      │  (Fine-Tuning)   │      │ Segmentadas (PNG) │
+└───────────────────┘      └──────────────────┘      └───────────────────┘
+```
+*   **Stack:** `YOLOv8-seg` `Python` `OpenCV`
+*   **Resultado:** Aceleração do tempo de análise de imagens científicas no Laboratório Fuzzy.
+*   **Links:** [Repositório da Pesquisa](https://github.com/FellypeMelo/Trypanosoma-segmentation)
 
-#### 🔬 **Classificação Automática de Embriões** | `PyTorch` `FastAPI` `Python` `React`
-*   **Papel:** Tech Lead & Pesquisador em IA *(FuzzyLab - Em parceria com pesquisa de mestrado externa)*
-*   **Desafio:** Treinar e integrar uma rede neural de Deep Learning para classificar imagens de embriões humanos, integrando-a a um ecossistema web de produção.
-*   **Práticas Aplicadas:** Treinamento de arquiteturas ResNet-18 em PyTorch com validação cruzada estratificada (k-fold), construção de endpoints REST em FastAPI e integração frontend-backend.
-
----
-
-### 🌐 Open Source & Contribuições
-*   **Objetivo:** Contribuir com a descentralização de tecnologias de IA de execução local, priorizando a segurança de dados e a privacidade.
-*   **Iniciativa Principal:** Desenvolvimento aberto do **OpenChatBot**, modularizando o gerenciamento de contextos e integrando LLMs locais à comunidade.
-*   **Parcerias:** Aberto a colaborar com otimizações em bibliotecas de backend escaláveis, ferramentas de processamento de dados e boilerplates arquiteturais de Clean Software.
+#### 🔬 **Classificação Automática de Embriões**
+*   **Problema:** Inconsistências de classificação morfológica humana no desenvolvimento inicial de embriões.
+*   **Arquitetura:** Pipeline de classificação de Deep Learning integrado à interface web, treinado no FuzzyLab em parceria com pesquisa externa de mestrado.
+```
+┌─────────────┐      ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+│ Imagens do  ├─────►│ ResNet-18   ├─────►│ FastAPI API ├─────►│  React UI   │
+│ Embrião     │      │ (PyTorch)   │      │ (Endpoints) │      │ (Visual)    │
+└─────────────┘      └─────────────┘      └─────────────┘      └─────────────┘
+```
+*   **Stack:** `PyTorch` `ResNet-18` `FastAPI` `Python` `React`
+*   **Resultado:** Integração bem-sucedida de modelos com validação cruzada k-fold para suporte à tomada de decisões médicas.
+*   **Links:** [Repositório da Integração](https://github.com/FellypeMelo/Embryo-classification)
 
 ---
 
@@ -83,49 +107,41 @@ Sou Software Engineer e estudante do último período de **Análise e Desenvolvi
 
 ---
 
-### 🚀 Atualmente & Roadmap
-*   [ ] Refatoração do núcleo do **OpenChatBot** para suportar orquestração multiagentes descentralizados.
-*   [ ] Estudo prático de design de **Sistemas Distribuídos** (mensageria, filas de alta vazão e resiliência).
-*   [ ] Otimização do pipeline de deploy de visão computacional em tempo real usando conexões WebSocket.
+### 🌐 Open Source & Contribuições
+*   **Foco:** Criação de pacotes modulares de IA que priorizam execução local e privacidade.
+*   **Iniciativa Principal:** Manutenção do **OpenChatBot** para simplificar conexões de LLMs locais à comunidade.
+*   **Objetivos:** Contribuir com melhorias em wrappers de APIs e bibliotecas de arquitetura limpa em Python.
 
 ---
 
-### 🛠️ Competências Técnicas
+### 🚀 Atualmente & Roadmap de Estudos
+*   [ ] Refatoração de orquestração multiagentes locais descentralizados.
+*   [ ] Design de **Sistemas Distribuídos** (Event-Driven Architecture, CQRS, Apache Kafka).
+*   [ ] Otimização de deploys de visão computacional em tempo real usando WebSockets.
 
-| Categoria | Tecnologias e Conceitos |
+---
+
+### 🛠️ Competências Técnicas & Práticas
+
+| Categoria | Tecnologias / Metodologias |
 | :--- | :--- |
 | **Linguagens** | Python, JavaScript (ES6+), Java, PHP, C |
 | **Backend & Web** | FastAPI, APIs RESTful, React, Vite, HTML5, CSS3, WordPress, Elementor |
 | **Inteligência Artificial** | PyTorch, Deep Learning, CNNs, Transformers, Processamento de Linguagem Natural (NLP), YOLOv8, Watson Studio |
 | **Práticas de Engenharia** | Clean Architecture, SOLID, Domain-Driven Design (DDD), Design Patterns, Clean Code, TDD, XP |
-| **Banco de Dados & Infra** | Modelagem de Dados Relacional, SQL, MySQL, Git, GitHub |
+| **Banco de Dados & Ferramentas** | Modelagem de Dados, SQL, MySQL, Git, GitHub |
 
 ---
 
 ### 🎓 Formação & Certificações
-
-#### **Educação**
 *   **Análise e Desenvolvimento de Sistemas** — *FAETERJ-Rio* (Último Período)
-*   **Ensino Médio Técnico em Informática Industrial** *(2020 - 2023)*
-*   **Curso de Hardware e Robótica** — *Microcamp* *(2019 - 2021)*
-
-#### **Certificações em Destaque**
 *   🛡️ **Ethical Hacker & Network Defense** — *Cisco Networking Academy*
-*   🧠 **AI Fundamentals & Artificial Intelligence** — *Cisco & IBM SkillsBuild* (NLP, visão computacional e Watson Studio)
+*   🧠 **AI Fundamentals & Artificial Intelligence** — *Cisco & IBM SkillsBuild* (NLP, Watson Studio)
 *   ☕ **Java Foundations** — *Oracle Academy*
 
 ---
 
-### 🎯 Áreas de Interesse
-*   Arquitetura de Software & Padrões de Projeto
-*   Engenharia de IA & Modelagem de Deep Learning (NLP & Computação Visual)
-*   Sistemas Distribuídos & Resiliência de Aplicações
-*   Engenharia de Requisitos & Garantia de Qualidade de Código (TDD/XP)
-*   Visão Computacional & Segmentação de Instâncias
-
----
-
-### 📊 Estatísticas de Contribuição
+### 📊 Estatísticas do GitHub
 
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=FellypeMelo&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" alt="Estatísticas do GitHub de Fellype" />
