@@ -155,7 +155,7 @@ I design and build scalable software. My work involves:
 | Platform | Link / Details |
 | :--- | :--- |
 | **💼 Professional** | [LinkedIn](https://linkedin.com/in/fellype-samuel) \| [GitHub](https://github.com/FellypeMelo) \| [Email](mailto:fellypesamuel1@hotmail.com) |
-| **🎓 Academic** | [Lattes CV (CNPq)](http://lattes.cnpq.br/) *[Placeholder]* \| [ORCID](https://orcid.org/) *[Placeholder]* \| [Google Scholar](https://scholar.google.com/) *[Placeholder]* |
+| **🎓 Academic** | [ORCID](https://orcid.org/0009-0000-3274-0343) |
 
 <br>
 
