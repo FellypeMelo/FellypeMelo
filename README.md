@@ -52,20 +52,20 @@ Sou Software Engineer e estudante do último período de **Análise e Desenvolvi
 *   **Desafio:** Construir uma plataforma de agentes conversacionais locais com memória persistente, garantindo desacoplamento técnico e facilidade de personalização de agentes inteligentes.
 *   **Práticas Aplicadas:** Implementação baseada em Clean Architecture, Domain-Driven Design (DDD), Design Patterns estruturados e cobertura de testes contínua (TDD).
 
-#### 🔬 **Classificação Automática de Embriões** | `PyTorch` `FastAPI` `Python` `React`
-*   **Papel:** Tech Lead & Pesquisador em IA *(Pesquisa de Mestrado - FuzzyLab)*
-*   **Desafio:** Treinar e integrar uma rede neural de Deep Learning altamente precisa para classificar imagens de embriões humanos, integrando-a a um ecossistema web de produção.
-*   **Práticas Aplicadas:** Treinamento de arquiteturas ResNet-18 em PyTorch com validação cruzada estratificada (k-fold), construção de endpoints REST em FastAPI e liderança da arquitetura de integração frontend-backend.
-
-#### 🔬 **Segmentação de Trypanosoma cruzi** | `YOLOv8-seg` `Python` `OpenCV`
-*   **Papel:** Pesquisador em IA *(Concluído - FuzzyLab)*
-*   **Desafio:** Automatizar a identificação de estruturas ultraestruturais do parasita em imagens de microscopia eletrônica de varredura.
-*   **Práticas Aplicadas:** Otimização e fine-tuning de modelos YOLOv8-seg para segmentação de instâncias biológicas complexas com processamento de imagem via OpenCV.
-
 #### 🎓 **Educa — Gestão Escolar** | `React` `Vite` `Python` `FastAPI`
 *   **Papel:** Tech Lead & Lead Architect *(Concluído - TCC)*
 *   **Desafio:** Mapear requisitos de regras escolares (notas, turmas, conteúdos) e integrá-los em uma aplicação modular e sustentável.
 *   **Práticas Aplicadas:** Engenharia de requisitos completa, diagramação e modelagem de banco de dados, documentação técnica exaustiva e implementação full stack do sistema.
+
+#### 🔬 **Segmentação de Trypanosoma cruzi** | `YOLOv8-seg` `Python` `OpenCV`
+*   **Papel:** Pesquisador em IA *(FuzzyLab - Em Andamento)*
+*   **Desafio:** Automatizar a identificação de estruturas ultraestruturais do parasita em imagens de microscopia eletrônica de varredura para análise científica.
+*   **Práticas Aplicadas:** Otimização e fine-tuning de modelos YOLOv8-seg para segmentação de instâncias em estruturas biológicas complexas com OpenCV.
+
+#### 🔬 **Classificação Automática de Embriões** | `PyTorch` `FastAPI` `Python` `React`
+*   **Papel:** Tech Lead & Pesquisador em IA *(FuzzyLab - Em parceria com pesquisa de mestrado externa)*
+*   **Desafio:** Treinar e integrar uma rede neural de Deep Learning para classificar imagens de embriões humanos, integrando-a a um ecossistema web de produção.
+*   **Práticas Aplicadas:** Treinamento de arquiteturas ResNet-18 em PyTorch com validação cruzada estratificada (k-fold), construção de endpoints REST em FastAPI e integração frontend-backend.
 
 ---
 
