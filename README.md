@@ -144,8 +144,9 @@ flowchart TB
 ### 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=FellypeMelo&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" alt="Estatísticas do GitHub de Fellype" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FellypeMelo&theme=tokyonight&layout=compact&custom_title=Linguagens%20mais%20usadas&langs_count=8" alt="Linguagens mais usadas" />
+  <a href="https://github.com/FellypeMelo?tab=followers"><img src="https://img.shields.io/github/followers/FellypeMelo?style=for-the-badge&logo=github&logoColor=white&label=Seguidores&labelColor=0d1117&color=1f6feb" alt="Seguidores no GitHub" /></a>
+  <a href="https://github.com/FellypeMelo/Open-ChatBot"><img src="https://img.shields.io/github/last-commit/FellypeMelo/Open-ChatBot?style=for-the-badge&logo=git&logoColor=white&label=%C3%9Altimo%20commit&labelColor=0d1117&color=1f6feb" alt="Último commit no OpenChatBot" /></a>
+  <a href="https://github.com/FellypeMelo?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-30%2B-1f6feb?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Repositórios públicos" /></a>
 </p>
 
 ---
