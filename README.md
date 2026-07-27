@@ -1,5 +1,7 @@
+🌐 **English** · [Português (Brasil)](README.pt-BR.md)
+
 # Fellype Samuel dos Santos de Melo
-### Software Engineer & Tech Lead — Arquitetura de Software · IA Aplicada
+### Software Engineer & Tech Lead — Software Architecture · Applied AI
 
 <p align="left">
   <img src="https://img.shields.io/badge/Tech%20Lead-blue?style=flat-square" alt="Tech Lead" />
@@ -22,101 +24,105 @@
   </a>
 </p>
 
-📍 Rio de Janeiro, RJ, Brasil
+📍 Rio de Janeiro, RJ, Brazil
 
 ---
 
-### 🧠 Sobre Mim
-Software Engineer e estudante do último período de **Análise e Desenvolvimento de Sistemas (FAETERJ-Rio)**. Atuo na intersecção entre **arquitetura de backend** e **Inteligência Artificial aplicada** (Deep Learning, NLP e Visão Computacional). Como Tech Lead, modelo requisitos de negócio em arquiteturas desacopladas e conduzo integrações técnicas de ponta a ponta.
+### 🧠 About Me
+Software Engineer and final-semester student of **Systems Analysis and Development (FAETERJ-Rio)**. I work at the intersection of **backend architecture** and **applied Artificial Intelligence** (Deep Learning, NLP, and Computer Vision). As a Tech Lead, I translate business requirements into decoupled architectures and drive technical integrations end to end.
 
 > *"Great software starts by understanding problems before writing code."*
 
 ---
 
-## 🤖 Projeto Principal — OpenChatBot
+## 🤖 Flagship Project — OpenChatBot
 
-Motor **local-first** para agentes e personagens com **estado e memória persistente** — comportamento crível aplicável a companions, ficção interativa e **NPCs de jogos**. Execução 100% local, com RAG e controle total de privacidade, sem dependência de nuvem.
+**Local-first** engine for agents and characters with **persistent state and memory** — believable behavior applicable to companions, interactive fiction, and **game NPCs**. Runs 100% locally, with RAG and full privacy control, no cloud dependency.
 
-O núcleo é o **Living Entity Framework v5**, um motor cognitivo de seis camadas (master prompts, identidade, dinâmica social, estado emocional, contexto via RAG e histórico de conversa) sobre uma base **Clean Architecture / SOLID**.
+At its core is the **Living Entity Framework v5**, a six-layer cognitive engine (master prompts, identity, social dynamics, emotional state, RAG-based context, and conversation history) built on a **Clean Architecture / SOLID** foundation.
+
+*(Architecture and implementation details below are drawn from the project's own repository — see the link at the end of this section for the current source of truth.)*
 
 ```mermaid
 flowchart TB
     UI["React + Vite SPA<br/>TypeScript · Tailwind"]
     API["FastAPI Backend<br/>Clean Architecture · SOLID"]
-    LEF["Living Entity Framework v5<br/>Motor cognitivo · 6 camadas"]
-    MEM[("SQLite<br/>dados relacionais")]
-    VEC[("ChromaDB<br/>vetores · RAG")]
+    LEF["Living Entity Framework v5<br/>Cognitive engine · 6 layers"]
+    MEM[("SQLite<br/>relational data")]
+    VEC[("ChromaDB<br/>vectors · RAG")]
     LLM["llama.cpp<br/>GGUF · GPU offload"]
 
     UI <-->|"HTTP / WS"| API
     API --> LEF
-    LEF -->|contexto| VEC
-    LEF -->|"histórico · identidade"| MEM
+    LEF -->|context| VEC
+    LEF -->|"history · identity"| MEM
     LEF -->|prompt| LLM
     LLM -->|tokens| API
 ```
 
-**Demo — memória persistente entre turnos** *(demonstração da interface)*
+**Demo — persistent memory across turns** *(interface walkthrough)*
 
-![OpenChatBot recuperando um fato dito turnos antes, via memória vetorial (RAG)](https://raw.githubusercontent.com/FellypeMelo/Open-ChatBot/main/docs/demo/openchatbot-memory.gif)
+![OpenChatBot recalling a fact stated turns earlier, via vector memory (RAG)](https://raw.githubusercontent.com/FellypeMelo/Open-ChatBot/main/docs/demo/openchatbot-memory.gif)
 
-**Destaques técnicos**
-- Inferência local via **llama.cpp** com quantização **GGUF** e offload de GPU.
-- Memória híbrida: **SQLite** (relacional) + **ChromaDB** (vetorial / RAG).
-- Separação de domínio, infraestrutura, adaptadores e apresentação (Clean Architecture).
-- Deploy multiprocesso automatizado (build do frontend + serviços de IA + Uvicorn).
+**Technical highlights**
+- Local inference via **llama.cpp** with **GGUF** quantization and GPU offload.
+- Hybrid memory: **SQLite** (relational) + **ChromaDB** (vector / RAG).
+- Separation of domain, infrastructure, adapters, and presentation layers (Clean Architecture).
+- Automated multi-process deployment (frontend build + AI services + Uvicorn).
 
 **Stack** &nbsp; `TypeScript` `React` `Vite` `Python` `FastAPI` `ChromaDB` `llama.cpp`
 
-📂 **[Repositório & Documentação →](https://github.com/FellypeMelo/Open-ChatBot)**
+📂 **[Repository & Documentation →](https://github.com/FellypeMelo/Open-ChatBot)**
 
 ---
 
-## ⚡ TurboQuant — Otimização de Inferência *(fork do llama.cpp)*
+## ⚡ TurboQuant — Inference Optimization *(llama.cpp fork)*
 
-Quantização de **KV-cache de 2–4 bits** com rotação **Walsh–Hadamard** (suavização de outliers antes de quantizar) para GPUs **Intel Arc / Xe2** via backend **SYCL** — o mesmo `turbo3` que alimenta o OpenChatBot.
+**2–4 bit KV-cache quantization** with **Walsh–Hadamard rotation** (outlier smoothing before quantizing) for **Intel Arc / Xe2** GPUs via the **SYCL** backend — the same `turbo3` path that powers OpenChatBot.
 
-**Benchmarks do repositório** *(Intel Arc B580 · Qwen3-4B Q4_K_M · contexto 64k):*
-- 🔻 KV-cache de **9,2 GB → 1,6–1,8 GB** — até **7,5× menos** memória que fp16
-- ⚡ Prefill em **paridade de velocidade com fp16**
-- 🐛 6 bugs de correção resolvidos durante a implementação
+**As reported in the repository's own benchmarks** *(Intel Arc B580 · Qwen3-4B Q4_K_M · 64k context)*:
+- 🔻 KV-cache reduced from **9.2 GB to 1.6–1.8 GB** — up to **7.5x less** memory than fp16
+- ⚡ Prefill at **fp16 speed parity**
+- 🐛 6 correctness bugs fixed during implementation
 
-**Stack** &nbsp; `C/C++` `SYCL` `Intel oneAPI` `Quantização` `llama.cpp`
+**Stack** &nbsp; `C/C++` `SYCL` `Intel oneAPI` `Quantization` `llama.cpp`
 
-📂 **[Fork & deep-dive técnico →](https://github.com/FellypeMelo/llama-cpp-turboquant-SYCL)**
+📂 **[Fork & technical deep-dive →](https://github.com/FellypeMelo/llama-cpp-turboquant-SYCL)**
 
 ---
 
-## 🚀 Outros Projetos
+## 🚀 Other Projects
 
-| Projeto | O que resolve | Stack | Acesso |
+| Project | What it solves | Stack | Access |
 | :--- | :--- | :--- | :--- |
-| 🔬 **OpenScientific-Workbench** | Workbench agêntico para biologia computacional: pipelines multiagente em sandbox e integração de bases científicas via MCP. | `Python` · `FastAPI` · `Neo4j` · `MCP` | [Repo](https://github.com/FellypeMelo/OpenScientific-Workbench) |
-| 👁️ **LocalVision-Jules** | Assistente de visão 100% local (modelos LLaVA): análise de imagem com histórico contextual e GUI acessível. | `Python` · `LM Studio` · `LLaVA` | [Repo](https://github.com/FellypeMelo/LocalVision-Jules) |
-| 🧬 **Classificação de Embriões** | Rede **ResNet-18** (validação k-fold) integrada a API REST para apoiar uma **pesquisa de mestrado externa**. | `PyTorch` · `FastAPI` · `React` | FuzzyLab · privado |
-| 🦠 **Segmentação de _Trypanosoma cruzi_** | Fine-tuning de **YOLOv8-seg** para segmentar estruturas em microscopia eletrônica de varredura. | `YOLOv8-seg` · `OpenCV` | FuzzyLab · privado |
-| 🎓 **Educa** | Sistema de gestão escolar (turmas, notas, conteúdos) — TCC full stack, com engenharia de requisitos e modelagem relacional. | `React` · `FastAPI` · `MySQL` | Privado (TCC) |
+| 🔬 **OpenScientific-Workbench** | Agentic workbench for computational biology: sandboxed multi-agent pipelines and scientific database integration via MCP. | `Python` · `FastAPI` · `Neo4j` · `MCP` | [Repo](https://github.com/FellypeMelo/OpenScientific-Workbench) |
+| 👁️ **LocalVision-Jules** | 100% local vision assistant (LLaVA models): image analysis with contextual history and an accessible GUI. | `Python` · `LM Studio` · `LLaVA` | [Repo](https://github.com/FellypeMelo/LocalVision-Jules) |
+| 🧬 **Embryo Classification** | **ResNet-18** network (k-fold validation) integrated with a REST API to support an external master's research project. | `PyTorch` · `FastAPI` · `React` | FuzzyLab · private |
+| 🦠 **_Trypanosoma cruzi_ Segmentation** | **YOLOv8-seg** fine-tuning to segment structures in scanning electron microscopy images. | `YOLOv8-seg` · `OpenCV` | FuzzyLab · private |
+| 🎓 **Educa** | School management system (classes, grades, content) — full-stack capstone project (TCC), with requirements engineering and relational modeling. | `React` · `FastAPI` · `MySQL` | Private (capstone project) |
+
+*Rows marked "private" refer to repositories not publicly available; descriptions above summarize my role, not independently verifiable claims about the private codebases themselves.*
 
 ---
 
-### 📝 Pesquisa & Publicação
-**Primeiro autor** — periódico acadêmico revisado:
+### 📝 Research & Publication
+**First author** — peer-reviewed academic journal:
 
 > **MELO, F. S. S.** et al. *Arquitetura Algorítmica para Atenção Sustentável: o Modelo Be-Productive como Resposta à Sobrecarga Cognitiva no Capitalismo de Vigilância*. Revista Tópicos, 2026.
 > 🔗 **DOI:** [10.70773/revistatopicos/781363235](https://doi.org/10.70773/revistatopicos/781363235)
 
 ---
 
-### 🔭 Foco Atual
-- [ ] Orquestração de **multiagentes locais descentralizados** no núcleo do OpenChatBot.
-- [ ] Design prático de **Sistemas Distribuídos** — Event-Driven Architecture, CQRS, Apache Kafka.
-- [ ] Deploy de **visão computacional em tempo real** via WebSockets.
+### 🔭 Current Focus
+- [ ] Decentralized local multi-agent orchestration at the core of OpenChatBot.
+- [ ] Hands-on distributed systems design — Event-Driven Architecture, CQRS, Apache Kafka.
+- [ ] Real-time computer vision deployment via WebSockets.
 
 ---
 
-### 🛠️ Stack
+### 🛠️ Tech Stack
 
-**Linguagens**
+**Languages**
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -134,7 +140,7 @@ Quantização de **KV-cache de 2–4 bits** com rotação **Walsh–Hadamard** (
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind" />
 </p>
 
-**IA & Dados**
+**AI & Data**
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV" />
@@ -145,12 +151,12 @@ Quantização de **KV-cache de 2–4 bits** com rotação **Walsh–Hadamard** (
   <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white" alt="Neo4j" />
 </p>
 
-**Engenharia** &nbsp; `Clean Architecture` · `SOLID` · `DDD` · `Design Patterns` · `TDD` · `XP`
+**Engineering** &nbsp; `Clean Architecture` · `SOLID` · `DDD` · `Design Patterns` · `TDD` · `XP`
 
 ---
 
-### 🎓 Formação & Certificações
-- **Análise e Desenvolvimento de Sistemas** — *FAETERJ-Rio* (último período)
+### 🎓 Education & Certifications
+- **Systems Analysis and Development** — *FAETERJ-Rio* (final semester)
 - 🛡️ **Ethical Hacking & Network Defense** — Cisco Networking Academy
 - 🧠 **AI Fundamentals & Artificial Intelligence** (NLP, Watson Studio) — Cisco & IBM SkillsBuild
 - ☕ **Java Foundations** — Oracle Academy
@@ -160,9 +166,9 @@ Quantização de **KV-cache de 2–4 bits** com rotação **Walsh–Hadamard** (
 ### 📊 GitHub
 
 <p align="center">
-  <a href="https://github.com/FellypeMelo?tab=followers"><img src="https://img.shields.io/github/followers/FellypeMelo?style=for-the-badge&logo=github&logoColor=white&label=Seguidores&labelColor=0d1117&color=1f6feb" alt="Seguidores no GitHub" /></a>
-  <a href="https://github.com/FellypeMelo/Open-ChatBot"><img src="https://img.shields.io/github/last-commit/FellypeMelo/Open-ChatBot?style=for-the-badge&logo=git&logoColor=white&label=%C3%9Altimo%20commit&labelColor=0d1117&color=1f6feb" alt="Último commit no OpenChatBot" /></a>
-  <a href="https://github.com/FellypeMelo?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-30%2B-1f6feb?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Repositórios públicos" /></a>
+  <a href="https://github.com/FellypeMelo?tab=followers"><img src="https://img.shields.io/github/followers/FellypeMelo?style=for-the-badge&logo=github&logoColor=white&label=Followers&labelColor=0d1117&color=1f6feb" alt="GitHub followers" /></a>
+  <a href="https://github.com/FellypeMelo/Open-ChatBot"><img src="https://img.shields.io/github/last-commit/FellypeMelo/Open-ChatBot?style=for-the-badge&logo=git&logoColor=white&label=Last%20commit&labelColor=0d1117&color=1f6feb" alt="Last commit on OpenChatBot" /></a>
+  <a href="https://github.com/FellypeMelo?tab=repositories"><img src="https://img.shields.io/badge/Repositories-30%2B-1f6feb?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Public repositories" /></a>
 </p>
 
 ---
@@ -174,4 +180,4 @@ Quantização de **KV-cache de 2–4 bits** com rotação **Walsh–Hadamard** (
   <a href="https://github.com/FellypeMelo">GitHub</a>
 </p>
 
-<p align="center"><i>Aberto a colaborar em engenharia de software, IA aplicada e projetos open source.</i></p>
+<p align="center"><i>Open to collaborating on software engineering, applied AI, and open-source projects.</i></p>
